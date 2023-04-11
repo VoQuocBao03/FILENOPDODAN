@@ -51,9 +51,6 @@ public class Main {
                     trungBinhCongDonGiaSachGK = tongDonGiaSachGiaoKhoa / arrSachGiaoKhoa.size();
                 }
                 System.out.println("Trung binh cong don gia cac sach giao khoa = " + trungBinhCongDonGiaSachGK);
-                
-                // --------------------0-----------------Thong tin nha xuat ban cua cac loai sach
-                //--1
                 System.out.println("---Cac sach giao khoa cua nha xuat ban X---");
                 for (int i = 0; i < arrSachGiaoKhoa.size(); i++) {
                     if (arrSachGiaoKhoa.get(i).getNhaXuatBan().equalsIgnoreCase("X")) {
